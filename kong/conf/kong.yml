@@ -1,0 +1,20 @@
+_format_version: "1.0"
+_transform: true
+
+services:
+  - name: backend_service
+    host: auth
+    port: 9001
+    protocol: http
+    routes:
+      - name: backend_route
+        paths:
+          - /backend-base
+        strip_path: true
+
+plugins:
+  - name: rate-limiting
+    config:
+      second: 5
+      hour: 10000
+      policy: local
