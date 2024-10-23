@@ -1,4 +1,4 @@
-# ArtixPOS NestJS Microservices Experimental (Backbone Only)
+# NestJS Microservices Experimental (Backbone Only)
 
 ## Get started Notes:
 
@@ -55,4 +55,3 @@ To see the logs on Grafana dashboard, follow below steps.
 4. loki else you have to enter host IP address and port here, click on Save and Test button from the bottom of the page.
 5. Now, go to 3rd tab "Explore" from the left sidebar or http://localhost:3000/explore
 6. select containers and run the query. you will see view on your screen.
-  
